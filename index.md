@@ -10,7 +10,7 @@ $2 shipping.
 # Shipping
 USPS with tracking number.
 
-# Amiibo
+# Available Amiibo
 - Wolf Link (with 20 hearts)
 - Link [Super Smash Bros. series]
 - Zelda [Super Smash Bros. series]
