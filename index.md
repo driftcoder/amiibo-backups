@@ -13,7 +13,7 @@ USPS with tracking number.
 # Available Amiibo
 
 Name | Series | Notes
---- | --- | ---
+:--- |:--- |:---
 **Wolf Link** |  | *with 20 hearts*
 **Link** | Super Smash Bros. |
 **Zelda** | Super Smash Bros. |
@@ -22,14 +22,3 @@ Name | Series | Notes
 **Link - Twilight Princess** | The Legend of Zelda | *Not yet available in stores*
 **Link - Skyward Sword** | The Legend of Zelda | *Not yet available in stores*
 **Link - Majora's Mask** | The Legend of Zelda | *Not yet available in stores*
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
