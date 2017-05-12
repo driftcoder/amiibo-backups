@@ -11,11 +11,13 @@ $2 shipping.
 USPS with tracking number.
 
 # Available Amiibo
-- Wolf Link (with 20 hearts)
-- Link [Super Smash Bros. series]
-- Zelda [Super Smash Bros. series]
-- Sheik [Super Smash Bros. series]
-- Toon Link [Super Smash Bros. series]
-- Link - Twilight Princess [The Legend of Zelda series] (Not yet available in stores)
-- Link - Skyward Sword [The Legend of Zelda series] (Not yet available in stores)
-- Link - Majora's Mask [The Legend of Zelda series] (Not yet available in stores)
+Name | Series | Notes
+--- | --- | ---
+**Wolf Link** |  | *with 20 hearts*
+**Link** | Super Smash Bros. |
+**Zelda** | Super Smash Bros. |
+**Sheik** | Super Smash Bros. |
+**Toon Link** | Super Smash Bros. |
+**Link - Twilight Princess** | The Legend of Zelda | *Not yet available in stores*
+**Link - Skyward Sword** | The Legend of Zelda | *Not yet available in stores*
+**Link - Majora's Mask** | The Legend of Zelda | *Not yet available in stores*
