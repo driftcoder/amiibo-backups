@@ -4,8 +4,8 @@ you instead of your precious figures. If you are a collector, these will allow y
 collectibles unopened. Every Amiibo Backup is tested before it ships.
 
 # Price
-$5 each.
-$2 shipping.
+- $5 each.
+- $2 shipping.
 
 # Shipping
 USPS with tracking number.
