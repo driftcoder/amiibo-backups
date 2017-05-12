@@ -3,13 +3,6 @@ These Amiibo Backups work just like the real Amiibo figures. They are perfect to
 you instead of your precious figures. If you are a collector, these will allow you to keep your
 collectibles unopened. Every Amiibo Backup is tested before it ships.
 
-# Price
-- $5 each.
-- $2 shipping.
-
-# Shipping
-USPS with tracking number.
-
 # Available Amiibo
 
 Name | Series | Notes
