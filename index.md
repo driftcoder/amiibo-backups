@@ -10,9 +10,6 @@ collectibles unopened. Every Amiibo Backup is tested before it ships.
 # Shipping
 USPS with tracking number.
 
-# How does this work
-This is not a store. When you submit the form I will email you with more details.
-
 # Available Amiibo
 
 Name | Series | Notes
