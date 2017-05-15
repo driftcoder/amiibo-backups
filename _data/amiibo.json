@@ -1,0 +1,48 @@
+{
+  "series": [
+    "Super Smash Bros.",
+    "The Legend of Zelda"
+  ],
+  "amiibo": [
+    {
+      "name": "Wolf Link",
+      "series": "",
+      "notes": "with 20 hearts"
+    },
+    {
+      "name": "Link",
+      "series": "Super Smash Bros.",
+      "notes": ""
+    },
+    {
+      "name": "Zelda",
+      "series": "Super Smash Bros.",
+      "notes": ""
+    },
+    {
+      "name": "Sheik",
+      "series": "Super Smash Bros.",
+      "notes": ""
+    },
+    {
+      "name": "Toon Link",
+      "series": "Super Smash Bros.",
+      "notes": ""
+    },
+    {
+      "name": "Link - Twilight Princess",
+      "series": "The Legend of Zelda",
+      "notes": "Not yet available in stores"
+    },
+    {
+      "name": "Link - Skyward Sword",
+      "series": "The Legend of Zelda",
+      "notes": "Not yet available in stores"
+    },
+    {
+      "name": "Link - Majora's Mask",
+      "series": "The Legend of Zelda",
+      "notes": "Not yet available in stores"
+    }
+  ]
+}
