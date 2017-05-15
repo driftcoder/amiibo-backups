@@ -16,6 +16,21 @@ table, th, td {
   border: 1px solid #ccc;
 }
 
+select-wrapper {
+  position: relative;
+}
+
+.select-wrapper:before {
+    content: '\f0d7';
+    font-family: FontAwesome;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    pointer-events: none;
+}
+
 select {
   border: 1px solid #ccc;
   background-color: transparent;
@@ -26,6 +41,6 @@ select {
   color: #6d6d6d;
 }
 
-select:after { 
-  content: " - Remember this";
+select:focus { 
+  outline: none;
 }
