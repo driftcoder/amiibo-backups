@@ -26,6 +26,6 @@ select {
   color: #6d6d6d;
 }
 
-select::after { 
+select:after { 
   content: " - Remember this";
 }
