@@ -18,6 +18,10 @@ Name | Series | Notes
 
 # Test
 
+<ul>
 {% for amiibo in site.data.amiibo.units %}
-      {{ amiibo.name }}
+  <li>
+    {{ amiibo.name }}
+  </li>
 {% endfor %}
+</ul>
