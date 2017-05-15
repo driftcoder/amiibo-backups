@@ -18,10 +18,21 @@ Name | Series | Notes
 
 # Test
 
-<ul>
-{% for amiibo in site.data.amiibo.units %}
-  <li>
-    {{ amiibo.name }}
-  </li>
-{% endfor %}
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th align="left">Name</th>
+      <th align="left">Series</th>
+      <th align="left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for amiibo in site.data.amiibo.units %}
+      <tr>
+        <td align="left"><strong>{{ amiibo.name }}</strong></td>
+        <td align="left">{{ amiibo.name }}</td>
+        <td align="left"><em>{{ amiibo.notes }}</em></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
