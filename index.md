@@ -5,19 +5,6 @@ collectibles unopened.
 
 # Available Amiibo
 
-Name | Series | Notes
-:--- |:--- |:---
-**Wolf Link** |  | *with 20 hearts*
-**Link** | Super Smash Bros. |
-**Zelda** | Super Smash Bros. |
-**Sheik** | Super Smash Bros. |
-**Toon Link** | Super Smash Bros. |
-**Link - Twilight Princess** | The Legend of Zelda | *Not yet available in stores*
-**Link - Skyward Sword** | The Legend of Zelda | *Not yet available in stores*
-**Link - Majora's Mask** | The Legend of Zelda | *Not yet available in stores*
-
-# Test
-
 <table>
   <thead>
     <tr>
