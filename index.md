@@ -21,17 +21,17 @@ Name | Series | Notes
 <table>
   <thead>
     <tr>
-      <th align="left">Name</th>
-      <th align="left">Series</th>
-      <th align="left">Notes</th>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: left">Series</th>
+      <th style="text-align: left">Notes</th>
     </tr>
   </thead>
   <tbody>
     {% for amiibo in site.data.amiibo.units %}
       <tr>
-        <td align="left"><strong>{{ amiibo.name }}</strong></td>
-        <td align="left">{{ amiibo.name }}</td>
-        <td align="left"><em>{{ amiibo.notes }}</em></td>
+        <td style="text-align: left"><strong>{{ amiibo.name }}</strong></td>
+        <td style="text-align: left">{{ amiibo.name }}</td>
+        <td style="text-align: left"><em>{{ amiibo.notes }}</em></td>
       </tr>
     {% endfor %}
   </tbody>
