@@ -23,3 +23,5 @@ collectibles unopened.
     {% endfor %}
   </tbody>
 </table>
+
+{% include amiiboTable.html %}
