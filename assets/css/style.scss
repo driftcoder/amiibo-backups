@@ -15,3 +15,13 @@ th, td {
 table, th, td {
   border: 1px solid #ccc;
 }
+
+select {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 8px 25px 8px 10px;
+  -webkit-appearance: none;
+  font-size: 16px;
+  color: #6d6d6d;
+}
