@@ -25,3 +25,7 @@ select {
   font-size: 16px;
   color: #6d6d6d;
 }
+
+select::after { 
+  content: " - Remember this";
+}
