@@ -18,16 +18,17 @@ table, th, td {
 
 .select-wrapper {
   position: relative;
+  position: inline-block;
 }
 
 .select-wrapper:before {
     content: '\f0d7';
     font-family: FontAwesome;
-    color: #000;
+    color: #6d6d6d;
     display: inline-block;
     position: absolute;
-    right: 20px;
-    top: 15px;
+    right: 7px;
+    top: 2px;
     pointer-events: none;
 }
 
@@ -35,7 +36,7 @@ select {
   border: 1px solid #ccc;
   background-color: transparent;
   border-radius: 0px;
-  padding: 8px 25px 8px 10px;
+  padding: 3px 20px 3px 5px;
   -webkit-appearance: none;
   font-size: 16px;
   color: #6d6d6d;
