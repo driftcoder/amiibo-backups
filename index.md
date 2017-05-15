@@ -6,5 +6,3 @@ collectibles unopened.
 # Available Amiibo
 
 {% include amiiboTable.html %}
-
-<button>TEST<button>
