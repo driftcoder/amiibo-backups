@@ -1,5 +1,12 @@
 <div>
   <div class="block">
+    Search:
+    <input type="text" oninput="searchChanged(this)"/>
+  </div>
+  
+  <div class="spacer"></div>
+  
+  <div class="block">
     Series:
     <div class="select-wrapper">
       <select onchange="seriesSelected(this)">
@@ -9,10 +16,6 @@
         {% endfor %}      
       </select>
     </div>
-  </div>
-  <div class="block">
-    Search:
-    <input type="text" oninput="searchChanged(this)"/>
   </div>
 </div>
 
