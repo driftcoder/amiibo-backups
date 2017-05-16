@@ -45,6 +45,7 @@ input, select {
   height: 16px;
   font-weight: 300;
   color: #6d6d6d;
+  box-sizing: content-box;
   
   &:focus {
     outline: none;
