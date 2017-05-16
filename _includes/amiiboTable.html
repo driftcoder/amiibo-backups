@@ -1,15 +1,19 @@
 <div>
-  Series:
-  <div class="select-wrapper">
-    <select onchange="seriesSelected(this)">
-      <option>All</option>
-      {% for series in site.data.amiibo.series %}
-        <option>{{ series }}</option>
-      {% endfor %}      
-    </select>
+  <div class="block">
+    Series:
+    <div class="select-wrapper">
+      <select onchange="seriesSelected(this)">
+        <option>All</option>
+        {% for series in site.data.amiibo.series %}
+          <option>{{ series }}</option>
+        {% endfor %}      
+      </select>
+    </div>
   </div>
-  Search:
-  <input type="text" oninput="searchChanged(this)"/>
+  <div class="block">
+    Search:
+    <input type="text" oninput="searchChanged(this)"/>
+  </div>
 </div>
 
 <div class="spacer"></div>
