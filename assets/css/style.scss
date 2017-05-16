@@ -53,6 +53,12 @@ input, select, textarea {
   }
 }
 
+textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%
+}
+
 .block {
   display: inline-block;
 }
