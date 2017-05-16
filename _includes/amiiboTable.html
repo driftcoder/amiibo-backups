@@ -1,7 +1,7 @@
 <div>
   Series:
   <div class="select-wrapper">
-    <select onchange="seriesSelected()">
+    <select onchange="seriesSelected(this)">
       <option>All</option>
       <option>Test 2</option>
       <option>Test 3</option>
@@ -38,7 +38,7 @@
     valueNames: ['name', 'series', 'notes']
   });
   
-  function seriesSelected() {
-    console.log('BOOM');
+  function seriesSelected(select) {
+    console.log(select.value);
   }
 </script>
