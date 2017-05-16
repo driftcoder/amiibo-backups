@@ -52,20 +52,9 @@ input, select {
   height: 10px;
 }
 
-.container {
-  white-space: nowrap;
-  
-  .block {
-    display: inline-block;
-  }
+.block {
+  display: inline-block;
 }
 
 .filter-row {
-  .search-block {
-    width: 265px;
-  }
-  
-  .series-block {
-    width: 235px;
-  }
 }
