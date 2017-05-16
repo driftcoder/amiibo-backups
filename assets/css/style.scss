@@ -21,7 +21,7 @@ table, th, td {
   position: relative;
   display: inline-block;
   
-  :before {
+  &:before {
     content: '\f0d7';
     font-family: FontAwesome;
     color: #6d6d6d;
@@ -43,7 +43,7 @@ input, select {
   font-weight: 300;
   color: #6d6d6d;
   
-  :focus {
+  &:focus {
     outline: none;
   }
 }
