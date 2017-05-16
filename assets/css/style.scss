@@ -61,7 +61,11 @@ input, select {
 }
 
 .filter-row {
-  > .block {
-    width: 50%;
+  .search-block {
+    width: 265px;
+  }
+  
+  .series-block {
+    width: 235px;
   }
 }
