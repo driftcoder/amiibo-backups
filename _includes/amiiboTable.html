@@ -40,6 +40,7 @@
     if (select.value == 'All') {
       userList.filter();
     } else {
+      debugger;
       userList.filter(function(item) {
         return item.values().series == select.value;
       });
