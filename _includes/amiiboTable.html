@@ -12,7 +12,7 @@
 
 <div class="spacer"></div>
 
-<table class="amiibo-table">
+<table id="amiibo-table">
   <thead>
     <tr>
       <th>Name</th>
@@ -40,7 +40,6 @@
     if (select.value == 'All') {
       amiiboTable.filter();
     } else {
-      debugger;
       amiiboTable.filter(function(item) {
         return item.values().series == select.value;
       });
