@@ -20,9 +20,8 @@ table, th, td {
 .select-wrapper {
   position: relative;
   display: inline-block;
-}
-
-.select-wrapper:before {
+  
+  :before {
     content: '\f0d7';
     font-family: FontAwesome;
     color: #6d6d6d;
@@ -31,6 +30,7 @@ table, th, td {
     right: 7px;
     top: 2px;
     pointer-events: none;
+  }
 }
 
 input, select {
@@ -42,10 +42,10 @@ input, select {
   font-size: 16px;
   font-weight: 300;
   color: #6d6d6d;
-}
-
-input:focus, select:focus { 
-  outline: none;
+  
+  :focus {
+    outline: none;
+  }
 }
 
 .spacer {
@@ -54,8 +54,14 @@ input:focus, select:focus {
 
 .container {
   white-space: nowrap;
+  
+  .block {
+    display: inline-block;
+  }
 }
 
-.block {
-  display: inline-block;
+.filter-row {
+  > .block {
+    width: 50%;
+  }
 }
