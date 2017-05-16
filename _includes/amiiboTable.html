@@ -37,6 +37,12 @@
   });
   
   function seriesSelected(select) {
-    console.log(select.value);
+    if (select.value == 'All') {
+      userList.filter();
+    } else {
+      userList.filter(function(item) {
+        retrun item.values().series == select.value;
+      });
+    }
   }
 </script>
