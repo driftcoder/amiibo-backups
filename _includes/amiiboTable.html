@@ -32,16 +32,16 @@
 </table>
 
 <script>
-  var userList = new List('amiibo-table', {
+  var amiiboTable = new List('amiibo-table', {
     valueNames: ['name', 'series', 'notes']
   });
   
   function seriesSelected(select) {
     if (select.value == 'All') {
-      userList.filter();
+      amiiboTable.filter();
     } else {
       debugger;
-      userList.filter(function(item) {
+      amiiboTable.filter(function(item) {
         return item.values().series == select.value;
       });
     }
