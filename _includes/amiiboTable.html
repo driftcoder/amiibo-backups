@@ -1,7 +1,7 @@
 <div>
   Series:
   <div class="select-wrapper">
-    <select placeholder="filter2">
+    <select onchange="seriesSelected()">
       <option>All</option>
       <option>Test 2</option>
       <option>Test 3</option>
@@ -37,4 +37,8 @@
   var userList = new List('amiibo-table', {
     valueNames: ['name', 'series', 'notes']
   });
+  
+  function seriesSelected() {
+    console.log('BOOM');
+  }
 </script>
