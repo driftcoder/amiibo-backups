@@ -52,6 +52,10 @@ input:focus, select:focus {
   height: 10px;
 }
 
+.container {
+  white-space: nowrap;
+}
+
 .block {
   display: inline-block;
 }
