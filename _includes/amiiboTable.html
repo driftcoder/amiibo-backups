@@ -3,11 +3,9 @@
   <div class="select-wrapper">
     <select onchange="seriesSelected(this)">
       <option>All</option>
-      <option>Test 2</option>
-      <option>Test 3</option>
-      <option>Test 4</option>
-      <option>Test 5</option>
-      <option>Test 6</option>
+      {% for series in site.data.amiibo.series %}
+        <option>{{ series }}</option>
+      {% endfor %}      
     </select>
   </div>
 </div>
