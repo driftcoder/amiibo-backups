@@ -52,7 +52,7 @@ input, select, textarea {
   
   &:focus {
     outline: none;
-    border: 1px solid #87cefa;
+    border: 1px solid #00BFFD;
   }
 }
 
@@ -62,6 +62,19 @@ textarea {
   min-width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+button {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #eee;
+    font-weight: 300;
+    padding: 8px;
+    background-color: deepskyblue;
+  
+    &:hover {
+      color: #fff;
+    }
 }
 
 .block {
