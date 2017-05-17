@@ -11,11 +11,28 @@
 
 <script>
   function submitGetInTouch() {
-    $('.get-in-touch > .form').addClass('hidden');
-    $('.get-in-touch > .thank-you').removeClass('hidden');
+    var errors = [];
     
-    debugger;
+    if (!isEmailValid($('.get-in-touch > .form .email').first().val())) {
+      errors.push('Email address is invalid.');
+      $('.get-in-touch > .form .email').first().addClass('error');
+    }
+    
+    if (!isEmailValid($('.get-in-touch > .form .body').first().val().length)) {
+      errors.push('Message is required.');
+      $('.get-in-touch > .form .body').first().addClass('error');
+    }
+    
+    if (errors.length) {
+      
+      return;
+    }
+
     console.log($('.get-in-touch > .form .email').first().val());
     console.log($('.get-in-touch > .form .body').first().val());
+  }
+  
+  function isEmailValid(email) {
+    return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
   }
 </script>
