@@ -84,12 +84,7 @@ button {
 }
 
 .hidden {
-  opacity: 0 !important;
-  max-height: 0 !important;
-}
-
-.animated {
-  transition: all 1s ease-in-out;
+  display: none !important;
 }
 
 .filter-row {
@@ -107,10 +102,5 @@ button {
 .get-in-touch {
   .thank-you {
     text-align: center;
-    max-height: 300px;
-  }
-  
-  .form {
-    max-height: 300px;
   }
 }
