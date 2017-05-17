@@ -5,24 +5,23 @@
     "Super Smash Bros."
   ],
   "units": [
-    {"name": "Wolf Link", "series": "", "notes": "with 20 hearts"},
-    {"name": "Link", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Zelda", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Sheik", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Toon Link", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Toon Link", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Ganondorf", "series": "Super Smash Bros.", "notes": ""},
-    {"name": "Link - The Legend of Zelda", "series": "The Legend of Zelda", "notes": "8 bit Link"},
-    {"name": "Toon Link - The Wind Waker", "series": "The Legend of Zelda", "notes": ""},
-    {"name": "Zelda - The Wind Waker", "series": "The Legend of Zelda", "notes": "Toon Zelda"},
-    {"name": "Link - Ocarina of Time", "series": "The Legend of Zelda", "notes": ""},
-    {"name": "Link - Twilight Princess", "series": "The Legend of Zelda", "notes": "Not yet available in stores"},
-    {"name": "Link - Skyward Sword", "series": "The Legend of Zelda", "notes": "Not yet available in stores"},
     {"name": "Link - Majora's Mask", "series": "The Legend of Zelda", "notes": "Not yet available in stores"},
+    {"name": "Link - Skyward Sword", "series": "The Legend of Zelda", "notes": "Not yet available in stores"},
+    {"name": "Link - Twilight Princess", "series": "The Legend of Zelda", "notes": "Not yet available in stores"},
+    {"name": "Wolf Link", "series": "", "notes": "20 hearts"},
     {"name": "Link (Archer)", "series": "Breath of the Wild", "notes": ""},
     {"name": "Link (Rider)", "series": "Breath of the Wild", "notes": ""},
     {"name": "Zelda", "series": "Breath of the Wild", "notes": ""},
     {"name": "Bokoblin", "series": "Breath of the Wild", "notes": ""},
-    {"name": "Guardian", "series": "Breath of the Wild", "notes": ""}
+    {"name": "Guardian", "series": "Breath of the Wild", "notes": ""},
+    {"name": "Link", "series": "Super Smash Bros.", "notes": ""},
+    {"name": "Zelda", "series": "Super Smash Bros.", "notes": ""},
+    {"name": "Sheik", "series": "Super Smash Bros.", "notes": ""},
+    {"name": "Toon Link", "series": "Super Smash Bros.", "notes": ""},
+    {"name": "Ganondorf", "series": "Super Smash Bros.", "notes": ""},
+    {"name": "Link - The Legend of Zelda", "series": "The Legend of Zelda", "notes": "8 bit Link"},
+    {"name": "Link - Ocarina of Time", "series": "The Legend of Zelda", "notes": ""},
+    {"name": "Toon Link - The Wind Waker", "series": "The Legend of Zelda", "notes": ""},
+    {"name": "Zelda - The Wind Waker", "series": "The Legend of Zelda", "notes": "Toon Zelda"}
   ]
 }
