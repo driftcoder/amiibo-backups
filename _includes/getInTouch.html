@@ -13,12 +13,14 @@
 <script>
   function submitGetInTouch() {
     var errors = [];
+    var email = $('.get-in-touch > .form .email').first().val();
+    var message = $('.get-in-touch > .form .body').first().val();
     
-    if (!isEmailValid($('.get-in-touch > .form .email').first().val())) {
+    if (!isEmailValid(email)) {
       errors.push('Email address is invalid.');
     }
     
-    if (!$('.get-in-touch > .form .body').first().val().length) {
+    if (!message.length) {
       errors.push('Message is required.');
     }
     
@@ -29,9 +31,13 @@
 
     $('.get-in-touch > .form').addClass('hidden');
     $('.get-in-touch > .thank-you').removeClass('hidden');
-    
-    console.log($('.get-in-touch > .form .email').first().val());
-    console.log($('.get-in-touch > .form .body').first().val());
+
+    $.ajax({
+      url: 'https://formspree.io/' + '6d617474373831363740676d61696c2e636f6d'.match(/.{2}/g).map((a)=>String.fromCharCode(parseInt(a,16))).join(''), 
+      method: 'POST',
+      data: {message},
+      dataType: 'json'
+    });
   }
   
   function isEmailValid(email) {
