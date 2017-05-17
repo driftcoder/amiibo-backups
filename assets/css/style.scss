@@ -84,8 +84,8 @@ button {
 }
 
 .hidden {
-  opacity: 0;
-  max-height: 0;
+  opacity: 0 !important;
+  max-height: 0 !important;
 }
 
 .animated {
@@ -107,5 +107,9 @@ button {
 .get-in-touch {
   .thank-you {
     text-align: center;
+  }
+  
+  .form {
+    max-height: 300px;
   }
 }
