@@ -72,13 +72,10 @@ button {
     padding: 10px 15px;
     background-color: #00ACE6;
   
-    &:hover {
+    &:hover, &:focus {
+      outline: none;
       color: #fff;
       background-color: #00BFFD;
-    }
-  
-    &:focus {
-      outline: none;
     }
 }
 
