@@ -2,9 +2,9 @@
   <div class="thank-you hidden">Your message has been sent. Thank You.</div>
   <div class="form">
     <div>Your email</div>
-    <div><input type="email"/></div>
+    <div><input type="email" class="email"/></div>
     <div>Message</div>
-    <div><textarea></textarea></div>
+    <div><textarea class="body"></textarea></div>
     <div><button onclick="submitGetInTouch()">Send</button></div>
   </div>
 </div>
@@ -13,5 +13,8 @@
   function submitGetInTouch() {
     $('.get-in-touch > .form').addClass('hidden');
     $('.get-in-touch > .thank-you').removeClass('hidden');
+    
+    console.log($('.get-in-touch > .form > .email').first().val());
+    console.log($('.get-in-touch > .form > .body').first().val());
   }
 </script>
