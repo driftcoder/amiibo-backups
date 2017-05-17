@@ -83,6 +83,15 @@ button {
   display: inline-block;
 }
 
+.hidden {
+  opacity: 0;
+  height: 0;
+}
+
+.animated {
+  
+}
+
 .filter-row {
   margin-bottom: 5px;
   
@@ -93,4 +102,10 @@ button {
 
 .get-in-touch, #amiibo-table {
   margin-bottom: 20px;
+}
+
+.get-in-touch {
+  .thank-you {
+    text-align: center;
+  }
 }
