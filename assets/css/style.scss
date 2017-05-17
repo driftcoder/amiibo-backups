@@ -33,6 +33,10 @@ table, th, td {
   }
 }
 
+div, input, select, textarea {
+  font-weight: 300;
+}
+
 input, select, textarea {
   border: 1px solid #ccc;
   background: none;
@@ -43,7 +47,6 @@ input, select, textarea {
   font-size: 16px;
   line-height: 16px;
   height: 16px;
-  font-weight: 300;
   color: #6d6d6d;
   box-sizing: content-box;
   
