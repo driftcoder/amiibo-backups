@@ -75,6 +75,10 @@ button {
     &:hover {
       color: #fff;
     }
+  
+    &:focus {
+      outline: none;
+    }
 }
 
 .block {
