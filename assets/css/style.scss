@@ -85,7 +85,7 @@ button {
 
 .hidden {
   opacity: 0;
-  height: 0;
+  max-height: 0;
 }
 
 .animated {
