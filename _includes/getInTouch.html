@@ -11,8 +11,7 @@
 
 <script>
   function submitGetInTouch() {
-    document.querySelectorAll('.get-in-touch > .form').forEach((element) => {
-	    console.log(element);
-    });
+    $('.get-in-touch > .form').addClass('hidden');
+    $('.get-in-touch > .thank-you').removeClass('hidden');
   }
 </script>
