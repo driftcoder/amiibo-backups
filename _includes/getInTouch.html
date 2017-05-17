@@ -5,7 +5,7 @@
     <div><input type="email" class="email"/></div>
     <div>Message</div>
     <div><textarea class="body"></textarea></div>
-    <div><button onclick="submitGetInTouch()">Send</button></div>
+    <div><button onclick="submitGetInTouch()">Send</button> <span class="errors"></span></div>
   </div>
 </div>
 
@@ -15,16 +15,14 @@
     
     if (!isEmailValid($('.get-in-touch > .form .email').first().val())) {
       errors.push('Email address is invalid.');
-      $('.get-in-touch > .form .email').first().addClass('error');
     }
     
-    if (!isEmailValid($('.get-in-touch > .form .body').first().val().length)) {
+    if (!$('.get-in-touch > .form .body').first().val().length) {
       errors.push('Message is required.');
-      $('.get-in-touch > .form .body').first().addClass('error');
     }
     
     if (errors.length) {
-      
+      $('.get-in-touch > .form .error').text(errors.join(' '));
       return;
     }
 
