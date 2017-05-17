@@ -27,6 +27,9 @@
       return;
     }
 
+    $('.get-in-touch > .form').addClass('hidden');
+    $('.get-in-touch > .thank-you').removeClass('hidden');
+    
     console.log($('.get-in-touch > .form .email').first().val());
     console.log($('.get-in-touch > .form .body').first().val());
   }
