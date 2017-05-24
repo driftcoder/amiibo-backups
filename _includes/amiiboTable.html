@@ -47,8 +47,10 @@
   
   amiiboTable.on('updated', function() {
     if (amiiboTable.visibleItems.length) {
+      $('#amiibo-table').removeClass('hidden');
       $('.no-matches').addClass('hidden');
     } else {
+      $('#amiibo-table').addClass('hidden');
       $('.no-matches').removeClass('hidden');
     }
   });
