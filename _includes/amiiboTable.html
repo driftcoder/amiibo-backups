@@ -41,6 +41,10 @@
     valueNames: ['name', 'series', 'notes']
   });
   
+  amiiboTable.on('updated', function() {
+    debugger;
+  });
+  
   function seriesSelected(select) {
     if (select.value == 'All') {
       amiiboTable.filter();
