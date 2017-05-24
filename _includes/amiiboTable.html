@@ -33,11 +33,12 @@
         <td class="notes"><em>{{ amiibo.notes }}</em></td>
       </tr>
     {% endfor %}
-      <tr class="no-matches hidden">
-        <td class="" colspan="3">No Matches</td>
-      </tr>
   </tbody>
 </table>
+
+<div class="no-matches hidden">
+  No Matches
+</div>
 
 <script>
   var amiiboTable = new List('amiibo-table', {
@@ -46,9 +47,9 @@
   
   amiiboTable.on('updated', function() {
     if (amiiboTable.visibleItems.length) {
-      $('#amiibo-table .no-matches').addClass('hidden');
+      $('.no-matches').addClass('hidden');
     } else {
-      $('#amiibo-table .no-matches').removeClass('hidden');
+      $('.no-matches').removeClass('hidden');
     }
   });
   
