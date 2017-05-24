@@ -34,7 +34,7 @@
       </tr>
     {% endfor %}
       <tr class="no-matches hidden">
-        <td colspan="3">No Matches</td>
+        <td class="" colspan="3">No Matches</td>
       </tr>
   </tbody>
 </table>
@@ -45,7 +45,11 @@
   });
   
   amiiboTable.on('updated', function() {
-    console.log(amiiboTable.visibleItems.length);
+    if (amiiboTable.visibleItems.length)) {
+      $('#amiibo-table .no-matches').addClass('hidden');
+    } else {
+      $('#amiibo-table .no-matches').removeClass('hidden');
+    }
   });
   
   function seriesSelected(select) {
