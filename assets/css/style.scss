@@ -118,6 +118,8 @@ button {
 
 #amiibo-table {
   .no-matches {
-    text-align: center;
+    td {
+      text-align: center;
+    }
   }
 }
